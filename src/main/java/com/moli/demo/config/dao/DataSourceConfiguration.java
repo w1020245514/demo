@@ -34,7 +34,7 @@ public class DataSourceConfiguration {
         // 生成datasource实例
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         // 跟配置文件一样设置以下信息
-        // 驱动
+        // 设置驱动
         dataSource.setDriverClass(jdbcDriver);
         // 数据库连接URL
         dataSource.setJdbcUrl(jdbcUrl);
